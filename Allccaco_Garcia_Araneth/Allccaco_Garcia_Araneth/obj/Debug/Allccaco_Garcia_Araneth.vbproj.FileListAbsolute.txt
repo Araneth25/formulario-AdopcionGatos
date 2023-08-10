@@ -1,0 +1,17 @@
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\bin\Debug\Allccaco_Garcia_Araneth.exe.config
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\bin\Debug\Allccaco_Garcia_Araneth.exe
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\bin\Debug\Allccaco_Garcia_Araneth.pdb
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\bin\Debug\Allccaco_Garcia_Araneth.xml
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.vbproj.AssemblyReference.cache
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.vbproj.SuggestedBindingRedirects.cache
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.Form1.resources
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.Resources.resources
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.vbproj.GenerateResource.cache
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.vbproj.CoreCompileInputs.cache
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.exe
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.xml
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.pdb
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.Form2.resources
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.Form3.resources
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.Form4.resources
+C:\Users\arane\OneDrive\Documentos\Desarrollo de Interfaces\Allccaco_Garcia_Araneth\Allccaco_Garcia_Araneth\obj\Debug\Allccaco_Garcia_Araneth.Form5.resources

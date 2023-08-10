@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TablaDinamica" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0e9f37d3-c691-4179-91f5-5360d87bba33">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Crosstab Data Text" hAlign="Center"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="Car" class="java.lang.String"/>
+	<field name="Model" class="java.lang.String"/>
+	<field name="Volume" class="java.lang.String"/>
+	<field name="Weight" class="java.lang.String"/>
+	<field name="CO2" class="java.lang.String"/>
+	<field name="Vol" class="java.lang.String"/>
+	<field name="Continente" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="29" y="24" width="188" height="36" forecolor="#000000" uuid="acc8f32b-770f-4c54-beb2-26ecee3f2843"/>
+				<textElement>
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[Coches data csv]]></text>
+			</staticText>
+			<image>
+				<reportElement x="435" y="9" width="102" height="60" uuid="c53203c6-6178-4b24-ad4f-601ff335fdad"/>
+				<imageExpression><![CDATA["C:\\Users\\arane\\OneDrive\\Documentos\\Gestion_Empresarial\\coches.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="34" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="46" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="2" width="63" height="22" uuid="bea2baff-94dc-4708-b5a6-f1209b5bd03b"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Car]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="76" y="2" width="63" height="22" uuid="71690c9a-0d6c-408f-bfdb-1b937af09b9c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Model]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="155" y="2" width="78" height="22" uuid="1d439bc5-2ba6-4b3a-9d89-28d942289979"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Volume]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="233" y="2" width="73" height="22" uuid="8d3d0f35-695e-4fab-b513-f2b0226a72ac"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Weight]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="2" width="75" height="22" uuid="8bfa8550-459f-48bd-9690-4463efb69df3"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[CO2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="401" y="2" width="54" height="22" uuid="874f9a72-fcd2-4e12-bf2c-054257d28053"/>
+				<textElement textAlignment="Left">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Vol]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="0" width="100" height="20" uuid="13a72ad7-5b8c-4d73-8ac8-d3f49fa4307d"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Continente]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="52" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="63" height="22" uuid="872e0215-0619-4a9a-b039-9f5ace820fbd"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Car}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="76" y="0" width="63" height="22" uuid="a735dd0a-068b-4b78-8c40-919dbcd492f7"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Model}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="126" y="0" width="78" height="22" uuid="dd43b297-deae-4ca2-ba51-4c8156c718a8"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Volume}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="217" y="0" width="73" height="22" uuid="882c782b-c891-4094-a521-ee3faba3f3b8"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Weight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="0" width="75" height="22" uuid="002c6891-d8aa-4b34-a7d8-c98c833c55ba"/>
+				<textElement textAlignment="Right">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CO2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="401" y="0" width="54" height="22" uuid="64a6b8fe-e33f-4caa-a02c-c1e06832674f"/>
+				<textElement textAlignment="Left">
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Vol}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="2a288d4c-24f3-4617-a725-f79c5a00c686"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Continente}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="235" splitType="Stretch">
+			<crosstab>
+				<reportElement x="-2" y="20" width="555" height="215" uuid="3fbce39d-e77a-4447-b256-bb7bb46a995f"/>
+				<rowGroup name="Car" width="70" totalPosition="End">
+					<bucket class="java.lang.String">
+						<bucketExpression><![CDATA[$F{Car}]]></bucketExpression>
+					</bucket>
+					<crosstabRowHeader>
+						<cellContents backcolor="#FAF0E6" mode="Opaque">
+							<box>
+								<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<textField>
+								<reportElement style="Crosstab Data Text" x="0" y="0" width="70" height="25" uuid="b9d88c05-a0da-4e93-8de4-92df98b488da"/>
+								<textFieldExpression><![CDATA[$V{Car}]]></textFieldExpression>
+							</textField>
+						</cellContents>
+					</crosstabRowHeader>
+					<crosstabTotalRowHeader>
+						<cellContents backcolor="#FFDFBF" mode="Opaque">
+							<box>
+								<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="25" uuid="d321a4e8-179f-414c-b3a7-ac6178e8e21d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Total Car]]></text>
+							</staticText>
+						</cellContents>
+					</crosstabTotalRowHeader>
+				</rowGroup>
+				<columnGroup name="Vol" height="30" totalPosition="End">
+					<bucket class="java.lang.String">
+						<bucketExpression><![CDATA[$F{Vol}]]></bucketExpression>
+					</bucket>
+					<crosstabColumnHeader>
+						<cellContents backcolor="#FAF0E6" mode="Opaque">
+							<box>
+								<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<textField>
+								<reportElement style="Crosstab Data Text" x="0" y="0" width="50" height="30" uuid="b5f35fd0-4012-4508-9d42-9ac5514ab283"/>
+								<textFieldExpression><![CDATA[$V{Vol}]]></textFieldExpression>
+							</textField>
+						</cellContents>
+					</crosstabColumnHeader>
+					<crosstabTotalColumnHeader>
+						<cellContents backcolor="#FFDFBF" mode="Opaque">
+							<box>
+								<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+							</box>
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="72136879-9d86-42c0-9523-6cb0b0e30814"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Total Vol]]></text>
+							</staticText>
+						</cellContents>
+					</crosstabTotalColumnHeader>
+				</columnGroup>
+				<measure name="ModelMeasure" class="java.lang.Integer" calculation="Count">
+					<measureExpression><![CDATA[$F{Model}]]></measureExpression>
+				</measure>
+				<crosstabCell width="50" height="25">
+					<cellContents>
+						<box>
+							<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textField>
+							<reportElement style="Crosstab Data Text" x="0" y="0" width="50" height="25" uuid="efef7628-aff4-4870-87e8-4f1c5e82d455"/>
+							<textFieldExpression><![CDATA[$V{ModelMeasure}]]></textFieldExpression>
+						</textField>
+					</cellContents>
+				</crosstabCell>
+				<crosstabCell height="25" rowTotalGroup="Car">
+					<cellContents backcolor="#FFDFBF" mode="Opaque">
+						<box>
+							<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textField>
+							<reportElement style="Crosstab Data Text" x="0" y="0" width="50" height="25" uuid="12016c06-e24a-414c-99ae-0b0491a11cea"/>
+							<textFieldExpression><![CDATA[$V{ModelMeasure}]]></textFieldExpression>
+						</textField>
+					</cellContents>
+				</crosstabCell>
+				<crosstabCell width="50" columnTotalGroup="Vol">
+					<cellContents backcolor="#FFDFBF" mode="Opaque">
+						<box>
+							<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textField>
+							<reportElement style="Crosstab Data Text" x="0" y="0" width="50" height="25" uuid="a809add3-f0c3-4877-84ca-093309652e2a"/>
+							<textFieldExpression><![CDATA[$V{ModelMeasure}]]></textFieldExpression>
+						</textField>
+					</cellContents>
+				</crosstabCell>
+				<crosstabCell rowTotalGroup="Car" columnTotalGroup="Vol">
+					<cellContents backcolor="#FFDFBF" mode="Opaque">
+						<box>
+							<pen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+						</box>
+						<textField>
+							<reportElement style="Crosstab Data Text" x="0" y="0" width="50" height="25" uuid="6a64134e-d238-470a-9307-10715692ac06"/>
+							<textFieldExpression><![CDATA[$V{ModelMeasure}]]></textFieldExpression>
+						</textField>
+					</cellContents>
+				</crosstabCell>
+			</crosstab>
+			<break>
+				<reportElement x="0" y="15" width="100" height="1" uuid="94f9bf89-1037-4434-8af8-654584b568b3"/>
+			</break>
+			<barChart>
+				<chart>
+					<reportElement x="374" y="126" width="200" height="100" uuid="45299330-6513-4625-ba47-a87ac9ba4c2e"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset/>
+				<barPlot>
+					<plot/>
+					<itemLabel/>
+					<categoryAxisFormat>
+						<axisFormat/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat/>
+					</valueAxisFormat>
+				</barPlot>
+			</barChart>
+		</band>
+	</summary>
+</jasperReport>
