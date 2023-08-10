@@ -1,1 +1,2 @@
-# formulario-AdopcionGatos
+# Formulario e inicio de sesión para Adopción de gatos
+Formulario de Adopción de Gatos con inicio de sesión, recolección de datos del adoptante y selección de gatito, facilitando el proceso de adopción responsable.
